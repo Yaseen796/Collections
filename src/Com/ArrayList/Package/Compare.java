@@ -52,16 +52,16 @@ public class Compare {
         }
 
 
-//        students.sort((a,b) -> {
-//            if (b.getGpa() - a.getGpa() > 0) {
-//                return 1;
-//            } else if (b.getGpa() - a.getGpa() < 0) {
-//                return -1;
-//            } else {
-//
-//                return a.getName().compareTo(b.getName());
-//            }
-//        });
+        students.sort((a,b) -> {
+            if (b.getGpa() - a.getGpa() > 0) {
+                return 1;
+            } else if (b.getGpa() - a.getGpa() < 0) {
+                return -1;
+            } else {
+
+                return a.getName().compareTo(b.getName());
+            }
+        });
 
 
 
